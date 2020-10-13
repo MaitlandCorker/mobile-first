@@ -21,20 +21,25 @@ header,
 .mainNav > div > ul > li {   
     border: none;   
     padding: 0; 
-} 
-
-.mainContent {   
-    display: flex;
-} 
-.burgerMenu {   
-     display: none;
-    }
-
-.logo{
+} .logo{
     padding:5px 0px;
     flex-basis:85%;
     position: relative;
 }
+.logo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+   }
+.burgerMenu {   
+     display: none;
+    }
+
+
+.mainContent {   
+    display: flex;
+} 
+
 
 main {   
     flex-basis: 70%; 
@@ -75,13 +80,3 @@ header{
     justify-content:flex-end;
     padding:0 0 0 5px;
 }
-
-
-.logo img{
-position: absolute;
-top:0;
-left:0;
-}
-.burgerMenu {
-    display: none;
-   }
