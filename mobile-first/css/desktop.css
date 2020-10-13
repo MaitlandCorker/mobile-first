@@ -26,6 +26,15 @@ header,
 .mainContent {   
     display: flex;
 } 
+.burgerMenu {   
+     display: none;
+    }
+
+.logo{
+    padding:5px 0px;
+    flex-basis:85%;
+    position: relative;
+}
 
 main {   
     flex-basis: 70%; 
@@ -53,16 +62,7 @@ main {
      width: 100%; 
  } 
  
- .burgerMenu {   
-     display: none;
-    }
-
-.logo{
-    padding:5px 0px;
-    flex-basis:85%;
-    position: relative;
-}
-
+ 
 .loginLinks{
     flex-basis:15%;
 }
