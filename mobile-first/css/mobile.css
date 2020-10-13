@@ -47,6 +47,10 @@ img{
 .mainContent{
     margin:0 10px;
 }
+header {
+    display: flex;
+    flex-wrap: wrap;
+   }
 
 .news{
     display:flex;
