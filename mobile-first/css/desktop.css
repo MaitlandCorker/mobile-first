@@ -31,6 +31,12 @@ header,
     top: 0;
     left: 0;
    }
+.search {
+    flex-basis: 100%;
+   }
+.search > form {
+    display: flex;
+   }
 .burgerMenu {   
      display: none;
     }
