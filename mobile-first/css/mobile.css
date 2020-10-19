@@ -74,9 +74,14 @@ header {
     margin:6px 0;
     background-color:#000;
 }
-.search > form{
+.search {
+    flex-basis: 100%;
+   }
+.search > form {
     display: flex;
-}
+   }
+
+
 input[type="search"]{
     flex-basis:80%;
     padding:12px 5px;
@@ -135,13 +140,7 @@ header{
     flex: 1;
    }
 
-   .search {
-    flex-basis: 100%;
-   }
-    .search > form {
-    display: flex;
-   }
-
+   
 
 footer{
     background-color: #011424;
