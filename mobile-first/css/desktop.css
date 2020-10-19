@@ -72,10 +72,6 @@ main {
     flex-basis:15%;
 }
 
-.search{
-    padding:5px 0;
-    flex-basis: 40%;
-}
 header{
     justify-content:flex-end;
     padding:0 0 0 5px;
